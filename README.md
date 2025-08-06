@@ -2,6 +2,8 @@
 
 This project automatically generates short-form videos featuring quotes by combining voiceover, subtitles, and video clips.
 
+*Note this project does not contain the actual video files required to generate the videos, if you wish to make it operational you will have to either create your own with the ffmpeg scripts included or contact me to give them to you, I did not include them in the repo due to their size
+
 ## Features
 - **Text-to-Speech**: Generates voiceover using ElevenLabs TTS (via `tts_eleven`).
 - **Subtitles**: Creates and styles subtitles from the generated audio (`stt` and `pysrt`).
